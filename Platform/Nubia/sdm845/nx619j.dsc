@@ -23,5 +23,5 @@
   gSimpleInitTokenSpaceGuid.PcdGuiDefaultDPI|440
 
   gRenegadePkgTokenSpaceGuid.PcdDeviceVendor|"Nubia"
-  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"Mars"
+  gRenegadePkgTokenSpaceGuid.PcdDeviceProduct|"RedMagic Mars"
   gRenegadePkgTokenSpaceGuid.PcdDeviceCodeName|"nx619j"
