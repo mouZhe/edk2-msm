@@ -7,8 +7,6 @@ name: msm-Build
 on:
   push:
     branches: [master]
-  pull_request:
-    branches: [master]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -22,24 +20,10 @@ jobs:
       max-parallel: 8
       matrix:
         device:
-          # sm8150
-          - mh2lm
-          - betalm
-          - nabu
-          - vayu
-          - cepheus
-          - hotdog
-          - guacamole
           # sdm845
           - polaris
-          - perseus
-          # sm7325
-          - mona
-          - lisa
-          # msm8998
-          - cheeseburger
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
+          - nx619j
+   # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout repository
